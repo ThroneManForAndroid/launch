@@ -15,6 +15,9 @@
 		5B01F0381C34C69600678060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B01F0361C34C69600678060 /* LaunchScreen.storyboard */; };
 		5B01F0431C34C69600678060 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01F0421C34C69600678060 /* ____Tests.m */; };
 		5B01F04E1C34C69600678060 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01F04D1C34C69600678060 /* ____UITests.m */; };
+		5B01F05D1C34C79000678060 /* 约座手机00001ios_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B01F05B1C34C79000678060 /* 约座手机00001ios_05.jpg */; };
+		5B01F05E1C34C79000678060 /* 约座手机00001ios_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B01F05C1C34C79000678060 /* 约座手机00001ios_06.jpg */; };
+		5B01F0601C34DBAC00678060 /* 更多02@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B01F05F1C34DBAC00678060 /* 更多02@2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		5B01F0491C34C69600678060 /* 启动效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "启动效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B01F04D1C34C69600678060 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		5B01F04F1C34C69600678060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B01F05B1C34C79000678060 /* 约座手机00001ios_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "约座手机00001ios_05.jpg"; sourceTree = "<group>"; };
+		5B01F05C1C34C79000678060 /* 约座手机00001ios_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "约座手机00001ios_06.jpg"; sourceTree = "<group>"; };
+		5B01F05F1C34DBAC00678060 /* 更多02@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多02@2X.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				5B01F02E1C34C69600678060 /* ViewController.h */,
 				5B01F02F1C34C69600678060 /* ViewController.m */,
 				5B01F0311C34C69600678060 /* Main.storyboard */,
+				5B01F05B1C34C79000678060 /* 约座手机00001ios_05.jpg */,
+				5B01F05C1C34C79000678060 /* 约座手机00001ios_06.jpg */,
+				5B01F05F1C34DBAC00678060 /* 更多02@2X.png */,
 				5B01F0341C34C69600678060 /* Assets.xcassets */,
 				5B01F0361C34C69600678060 /* LaunchScreen.storyboard */,
 				5B01F0391C34C69600678060 /* Info.plist */,
@@ -243,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B01F05D1C34C79000678060 /* 约座手机00001ios_05.jpg in Resources */,
+				5B01F05E1C34C79000678060 /* 约座手机00001ios_06.jpg in Resources */,
+				5B01F0601C34DBAC00678060 /* 更多02@2X.png in Resources */,
 				5B01F0381C34C69600678060 /* LaunchScreen.storyboard in Resources */,
 				5B01F0351C34C69600678060 /* Assets.xcassets in Resources */,
 				5B01F0331C34C69600678060 /* Main.storyboard in Resources */,

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#define YZWidth [UIScreen mainScreen].bounds.size.width
 @interface ViewController ()
 
 @end
@@ -16,9 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor cyanColor];
+    
+
+
 }
 
+- (void)buttonClick{
+    NSLog(@"buttonClick==");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

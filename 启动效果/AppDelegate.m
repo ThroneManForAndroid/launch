@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    ViewController * myView = [[ViewController alloc]init];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = myView;
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    UIImageView * imageView = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    imageView.image = [UIImage imageNamed:@"约座手机00001ios_06.jpg"];
+    [self.window addSubview:imageView];
+    
+    
+    [UIView animateWithDuration:3.0 delay:2.0 options:UIViewAnimationOptionLayoutSubviews animations:^{
+        
+        CATransform3D transform = CATransform3DMakeScale(1.5, 1.5, 1.0);
+        imageView.layer.transform = transform;
+        imageView.alpha = 0.0;
+        
+    } completion:^(BOOL finished) {
+        
+        [imageView removeFromSuperview];
+    
+    }];
+    
+
+    
+    
     return YES;
 }
 
